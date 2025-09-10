@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(30, 33, 33);
+        font-family: Arial, sans-serif;
+      }
+
+      .box {
+        width: 400px;
+        min-height: 300px;
+        border: 2px solid #444;
+        display: flex;
+        flex-direction: column; /* stack items vertically */
+        align-items: center;
+        justify-content: center;
+        gap: 20px; /* space between elements */
+        color: white;
+        background-color: rgb(47, 49, 50);
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+      }
+
+      .one {
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      button {
+        padding: 12px 25px;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        background-color: #4cafef;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        background-color: #2f7bc0;
+      }
+
+      #two {
+        font-size: 20px;
+        opacity: 0.9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="one">Bavishya</div>
+      <button onclick="daba()">Daba de</button>
+      <div id="two">Kya lagta he</div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
